@@ -43,7 +43,7 @@ go get https://github.com/Vinetwigs/gofuck-interpreter.git
 
 `i.Step()`
 
-Useful for debbugging
+> Useful for debbugging
 
 
 ## Built With
