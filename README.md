@@ -23,7 +23,7 @@ Go
 
 Add this package as dipendence to current module and install
 ```
-go get https://github.com/Vinetwigs/gofuck-interpreter.git
+go get github.com/Vinetwigs/gofuck-interpreter@v1.1.2
 ```
 
 ## How to use
