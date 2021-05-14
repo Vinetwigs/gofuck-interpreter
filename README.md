@@ -33,17 +33,27 @@ import("github.com/Vinetwigs/gofuck-interpreter")
 
 ## How to use
 
-### Create a new interpreter type variable
+### Create a new interpreter type variable reading from a file
 
-`i := interpreter.NewInterpreter(file *io.File, memSize int)`   
+`i := interpreter.NewInterpreterFile(file *io.File, memSize int)`   
 
 
 | Parameter |                       Description                       |
 |:---------:|:-------------------------------------------------------:|
 | file      | a pointer to io.File rapresenting the file to interpret |
+| memSize   |      number of cells the memory will be composed of     |   
+
+### Create a new interpreter type variable reading from a path
+
+`i := interpreter.NewInterpreterString(path string, memSize int)`   
+
+
+| Parameter |                       Description                       |
+|:---------:|:-------------------------------------------------------:|
+| path      | a string rapresenting the path of the file to interpret |
 | memSize   |      number of cells the memory will be composed of     | 
 
-### Interpret the entire file
+### Interpret the entire program
 
 `i.InterpretFile()`
 
