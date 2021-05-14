@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Vinetwigs/gofuck-interpreter/interpreter"
+	"github.com/Vinetwigs/gofuck-interpreter"
 )
 
 func main() {
