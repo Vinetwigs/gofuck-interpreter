@@ -23,7 +23,7 @@ Go
 
 #### Install module
 ```
-go get github.com/Vinetwigs/gofuck-interpreter@v1.1.2
+go get github.com/Vinetwigs/gofuck-interpreter@v1.2.2
 ```
 
 #### Import in your project
