@@ -56,4 +56,4 @@ go get https://github.com/Vinetwigs/gofuck-interpreter.git
 
 ## License
 
-This project is licensed under the MIT License - see the [MIT License](https://opensource.org/licenses/MIT) site for details
+This project is licensed under the Apache License Version 2.0 - see the [Apache License](https://www.apache.org/licenses/LICENSE-2.0) site for details
