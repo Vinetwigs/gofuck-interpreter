@@ -1,10 +1,11 @@
 package main
 
 import (
-	"bfi/interpreter"
 	"fmt"
 	"os"
 	"strconv"
+
+	"github.com/Vinetwigs/gofuck-interpreter/interpreter"
 )
 
 func main() {
