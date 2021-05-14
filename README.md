@@ -1,4 +1,5 @@
 # GoFuck Interpreter
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Vinetwigs/gofuck-interpreter)
 
 A basic implementation in GoLang of a BrainFuck esoteric language interpreter.
 
