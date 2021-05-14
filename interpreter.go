@@ -17,12 +17,30 @@ type Interpreter struct {
 	memory  []uint8
 }
 
-func NewInterpreter(file *os.File, memSize int) *Interpreter {
-	i := &Interpreter{}
-	i.memSize = memSize
-	i.file = file
-	i.memory = make([]uint8, i.memSize)
-	i.pointer = 0
+func NewInterpreterString(path string, memSize int) *Interpreter {
+	i := &Interpreter{
+		memSize: memSize,
+		pointer: 0,
+		memory:  make([]uint8, memSize),
+	}
+
+	var err error
+	i.file, err = os.Open(path)
+
+	if err != nil {
+		return nil
+	} else {
+		return i
+	}
+}
+
+func NewInterpreterFile(file *os.File, memSize int) *Interpreter {
+	i := &Interpreter{
+		memSize: memSize,
+		file:    file,
+		memory:  make([]uint8, memSize),
+		pointer: 0,
+	}
 	return i
 }
 
