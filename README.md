@@ -2,6 +2,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Vinetwigs/gofuck-interpreter)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Vinetwigs/gofuck-interpreter)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Vinetwigs/gofuck-interpreter)
+[![GoDoc](https://godoc.org/github.com/mewkiz/flac?status.svg)](https://godoc.org/github.com/Vinetwigs/gofuck-interpreter)
 
 A basic implementation in GoLang of a BrainFuck esoteric language interpreter.
 
