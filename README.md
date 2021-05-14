@@ -21,9 +21,14 @@ Go
 
 ### Installing
 
-Add this package as dipendence to current module and install
+#### Install module
 ```
-go get https://github.com/Vinetwigs/gofuck-interpreter.git
+go get github.com/Vinetwigs/gofuck-interpreter@v1.1.2
+```
+
+#### Import in your project
+```
+import("github.com/Vinetwigs/gofuck-interpreter")
 ```
 
 ## How to use
