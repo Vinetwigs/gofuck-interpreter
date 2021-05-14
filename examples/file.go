@@ -5,11 +5,7 @@ import (
 	"os"
 	"strconv"
 
-<<<<<<< HEAD:examples/file.go
 	interpreter "github.com/Vinetwigs/gofuck-interpreter"
-=======
-	"github.com/Vinetwigs/gofuck-interpreter"
->>>>>>> 1fef5c18ed8dd8e61848eaa1754f647c36bd9d76:examples/main.go
 )
 
 func main() {
